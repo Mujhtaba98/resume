@@ -8,10 +8,10 @@ import Github from "@iconscout/react-unicons/icons/uil-github"
 
 const Footer = () => {
     return (
-        <>
+        <div className='mf'>
             <div className="Footer">
                 <img src={wave} alt="" style={{
-                    height: " 100%",
+                    height: "110%",
                     width: ' 100%',
                 }} />
             </div>
@@ -27,7 +27,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
