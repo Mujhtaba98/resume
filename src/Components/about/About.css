@@ -1,0 +1,49 @@
+.About {
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    height: 55vh;
+    margin-top: 1rem;
+    margin-bottom: 13rem;
+    padding-top: 2rem;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome>:nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(2) {
+    color: var(--darkgreen);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3) {
+    color: var(--gray);
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.A-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:480px) {
+.About{
+    flex-direction: column;
+    margin-top: 18rem;
+    padding: 0;
+}
+.Card>*{
+    margin-top: 2rem;
+}
+}

@@ -1,0 +1,52 @@
+.card {
+    width: 11rem;
+    height: 14rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.26);
+    border: 7px solid var(--greencard);
+    border-radius: 20px;
+    box-shadow: var(--boxShadow);
+    padding: 0px 14px 4px 13px;
+    margin-bottom: -28px
+}
+
+.card span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 19px;
+}
+
+.card>img {
+    transform: scale(0.8);
+    margin: -1rem;
+
+}
+
+.Card {
+    position: relative;
+}
+
+.Card>* {
+    position: absolute;
+}
+
+@media screen and (max-width:480px) {
+
+    .Card {
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+    }
+
+    .Card>* {
+        position: static;
+    }
+
+    .card {
+        width: auto;
+    }
+}

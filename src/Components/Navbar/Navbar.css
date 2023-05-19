@@ -1,0 +1,63 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+flex: 1;    
+align-items: center;
+display: flex;
+gap: 2rem;
+}
+
+.n-name{
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.n-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.n-list{
+    flex:10;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+
+}
+
+.n-list>ul li:hover{
+    color: var(--darkgreen);
+
+}
+
+.n-button{
+    flex:1.5;
+}
+/* 
+.n-button:hover{
+    background: white;
+    cursor: pointer;
+    color: var(--darkgreen);
+    border: 1px solid var(--darkgreen);
+} */
+
+@media screen and (max-width:480px) {
+  .n-list{
+    display: none;
+  }
+  .n-button{
+    display: none;
+
+  }
+}

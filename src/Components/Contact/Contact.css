@@ -1,0 +1,91 @@
+.contact {
+    padding: 0.3rem 0.3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.lcontact {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.lcontact span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-left: 6rem;
+    padding-top: 0rem;
+}
+
+.lcontact span:nth-of-type(2) {
+    color: var(--darkgreen);
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-left: 6rem;
+
+}
+
+.Rcontact {
+    flex: 1;
+    position: relative;
+}
+
+.Rcontact>form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.Rcontact .user {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--darkgreen);
+    border-radius: 0px;
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+textarea {
+    height: 4rem !important;
+}
+
+.cblur {
+    top: 1rem;
+    left: 1rem;
+}
+
+.s-button {
+    margin-top: -0.3rem;
+    margin-right: 16.5rem;
+}
+
+
+@media screen and (max-width:480px) {
+    .contact {
+        flex-direction: column;
+        height: 60vh;
+    }
+    .Rcontact{
+        transform: scale(0.8);
+    }
+    
+.lcontact span:nth-of-type(1) {
+    font-size: 2rem;
+    padding-left: 0px;
+  
+}
+
+.lcontact span:nth-of-type(2) {
+      font-size:2rem;
+      padding-left: 0px;
+
+}
+}
