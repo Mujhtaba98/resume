@@ -27,6 +27,7 @@
     text-align: center;
     font-size: 18px;
     background: #2e8b57;
+    border-radius: 5rem;
 }
 
 .swiper-slide img {
@@ -57,4 +58,10 @@
         object-fit: fill; 
 
     }
+.swiper-slide img {
+
+    border-radius: 5rem;
+    gap: 2rem;
+    /* filter: drop-shadow(-12px 15px 10px rgba(0, 0, 0, 0.25)); */
+}
 }
