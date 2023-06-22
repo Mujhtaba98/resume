@@ -54,7 +54,7 @@ const About = () => {
                 initial={{top:'14rem' ,left:'-8rem'}}
                 whileInView={{left:'6rem'}}
                 transition={transition}
-                style={{top: "14rem",right: "-4rem" }}>
+                style={{top: "14rem",left:'6rem'}}>
                     <Card
                         emoji={heartemoji}
                         heading={'Education'}

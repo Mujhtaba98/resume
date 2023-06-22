@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='mf'>
             <div className="Footer">
                 <img src={wave} alt="" style={{
-                    height: "110%",
+                    height: "75%",
                     width: ' 100%',
                 }} />
             </div>
