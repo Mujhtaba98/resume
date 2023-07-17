@@ -35,7 +35,7 @@
     font-size: 1.5rem;
     margin: -1px;
     padding-top: 10px;
-   
+
 }
 
 .i-button {
@@ -104,11 +104,48 @@
     filter: blur(72px);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1240px) {
+    .intro {
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 2.4rem;
+    }
+
+    .i-right {
+        transform: scale(0.8);
+        left: 13rem;
+        top: -1rem;
+    }
+
+    .i-right>:nth-child(3) {
+        left: -13rem;
+    }
+
+    .floating-div:nth-of-type(1) {
+        top: -3rem !important;
+        left: 21rem !important;
+    }
+
+    .blur {
+        top: -9rem;
+        left: 16rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .i-right {
+        left: 5rem;
+    }
+
+    .i-right>:nth-child(3) {
+        left: -12.6rem;
+    }
+}
+
+@media screen and (max-width:425px) {
 
     .intro {
         flex-direction: column;
-       
         gap: 2rem;
         margin-top: 1rem;
     }
@@ -118,13 +155,25 @@
         left: -4rem;
         top: 4rem;
     }
+
     .i-right>:nth-child(3) {
         left: -11rem;
     }
 
-    .floating-div:nth-of-type(1){
-       top: -10rem !important;
-      
+    .floating-div:nth-of-type(1) {
+        top: -10rem !important;
+
     }
 
+}
+
+@media screen and (max-width:375px) {
+   .floating-div:nth-of-type(1) {
+    left: 16rem !important;
+   }
+   .i-right>:nth-child(2) {
+    top: -3.6rem;
+    transform: scale(0.62);
+    left: -3rem;
+}
 }

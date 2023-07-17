@@ -26,7 +26,19 @@
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1440px) {
+    .Footer {
+    margin-top: -12rem;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .Footer {
+    margin-top: -12rem;
+    }
+}
+
+@media screen and (max-width:425px) {
     .Footer {
         display: flex;
         align-items: center;
@@ -34,13 +46,11 @@
         margin-top: -2rem;
         height: 41vh;
         margin-bottom: -4.5rem;
-
-
     }
 
     .fcontent {
-        transform: scale(0.7);
-        margin-top: -4rem;
+        transform: scale(0.8);
+        margin-top: -3rem;
         margin-left: -2rem;
     }
     .mf{

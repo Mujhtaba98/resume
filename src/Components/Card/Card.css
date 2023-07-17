@@ -34,19 +34,32 @@
     position: absolute;
 }
 
-@media screen and (max-width:480px) {
-
+@media screen and (max-width:768px) {
     .Card {
         display: flex;
         flex-direction: column;
-        gap: 15rem;
+        gap: 16.7rem;
     }
 
     .Card>* {
-        position: static;
+        position: sticky;
     }
 
     .card {
-        width: auto;
+        left: -9rem;
+        width: 65%;
+        top: 14rem;
     }
+}
+
+
+
+@media screen and (max-width:425px) {
+    .card {
+    left: -6rem
+    }
+}
+
+@media screen and (max-width:375px) {
+
 }

@@ -31,19 +31,50 @@
     margin-top: 1rem;
 }
 
-.A-button{
+.A-button {
     width: 8rem;
     height: 2rem;
     margin-top: 1rem;
 }
 
-@media screen and (max-width:480px) {
-.About{
-    flex-direction: column;
-    margin-top: 25rem;
-    padding: 0;
+@media screen and (max-width:1240px) {
+    .About {
+        flex-direction: column;
+        margin-top: 20rem;
+        padding: 0;
+    }
+
+    .Card {
+        left: 13rem;
+        top: -12rem;
+    }
 }
-.Card>*{
-    margin-top: 2rem;
+
+@media screen and (max-width:768px) {
+    .About {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .Card {
+        left: 13rem;
+        top: -12rem;
+    }
 }
+
+
+@media screen and (max-width:425px) {
+    .About {
+        margin-top: 22rem;
+    }
+    .Card{
+        left: 8.1rem;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .About {
+        margin-top: 25rem;
+    }
 }

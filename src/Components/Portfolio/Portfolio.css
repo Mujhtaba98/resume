@@ -44,24 +44,22 @@
     top: 50%;
 }
 
-
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
     .portfolio {
         margin-top: 31rem;
-
     }
 
     .swiper-slide img {
-        display: block;
         width: 200%;
         height: 300%;
-        object-fit: fill; 
-
     }
-.swiper-slide img {
 
-    border-radius: 5rem;
-    gap: 2rem;
-    /* filter: drop-shadow(-12px 15px 10px rgba(0, 0, 0, 0.25)); */
+    .swiper-slide img {
+        border-radius: 3rem;
+        /* filter: drop-shadow(-12px 15px 10px rgba(0, 0, 0, 0.25)); */
+    }
 }
+
+@media screen and (max-width:425px) {
+   
 }
